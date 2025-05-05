@@ -1,0 +1,76 @@
+.note-details-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+}
+
+.note-card-detail {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.note-title-detail {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.note-date-detail,
+.note-date-edited {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.edited-label {
+  color: #d97706; /* amber-600 */
+  font-weight: 600;
+}
+
+.note-content-detail {
+  font-size: 1.1rem;
+  margin: 1.5rem 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+.note-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.edit-btn {
+  background-color: #f59e0b; /* amber-500 */
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #d97706;
+}
+
+.delete-btn {
+  background-color: #dc2626; /* red-600 */
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #b91c1c;
+}
+
+.note-loading {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #555;
+}

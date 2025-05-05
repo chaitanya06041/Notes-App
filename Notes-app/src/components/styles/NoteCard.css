@@ -1,0 +1,40 @@
+.note-card {
+  display: block;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+  font-family: "Poppins";
+}
+
+.note-card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.note-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.note-content {
+  font-size: 0.95rem;
+  color: #444;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+
+.note-date {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.edited-label {
+  font-weight: 600;
+  color: #d97706; /* amber */
+  margin-right: 0.25rem;
+}
